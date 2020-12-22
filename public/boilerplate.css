@@ -1,0 +1,32 @@
+html {
+  font-size: 16px;
+  height: 100%;
+}
+body {
+  color: #b1a0d5;
+  font-size: 1.2rem;
+  padding: 12px;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #a4b7b7;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #989191;
+}
