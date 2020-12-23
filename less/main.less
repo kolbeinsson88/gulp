@@ -1,3 +1,100 @@
 @import './variable.less';
 
+aside {
+    padding: @smallPadding;
+    background-color: @blueLightest;
+    border-right: 6px solid @blueDarkest;
+    ul li { margin:  @smallPadding 0; }
+}
 
+main {
+    height: 100%;
+    background-color: @blueLight;
+    display: grid;
+    grid-template-rows: 150px auto auto auto;
+    section { padding: @smallPadding; }
+}
+
+section:nth-child(3) {
+    border-top: 6px solid @blueDarkest;
+    text-align: center;
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        li { justify-self: center; }
+        img {
+            height: 130px;
+            width: 130px;
+            border-radius: 22%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-clip: border-box;
+        }
+    }
+}
+
+.banner {
+    border-bottom: 9px solid @blueDarkest;
+    background-color: @blueDark;
+    img {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: border-box;
+        background-size: contain;
+        opacity: 0.7;
+        height: 100px;
+    }
+}
+
+#imgContainer {
+    justify-self: center;
+    h2 { margin-top: @commonMargin*2; }
+}
+
+.img__centering {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+    grid-gap: @smallMargin;
+    div {
+        justify-self: center;
+        text-align: center;
+        h2 {
+            text-transform: none;
+        }
+    }
+}
+
+footer {
+    text-align: center;
+    vertical-align: middle;
+    background-color: @blueDark;
+    padding: @commonPadding;
+    align-self: end;
+    vertical-align: middle;
+    p { color: @cloud; }
+}
+
+@media(max-width: 1024px) {
+    .container { display: block; }
+    body {
+        display: block;
+        font-size: 1rem;
+        aside {
+            border: none; 
+            background-color: @blueDark;
+        }
+        aside ul {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            li { text-align: center; }
+        }
+    }
+}

@@ -1,12 +1,135 @@
+/* Main fonts - Josefin Sans, PT Sans, Lato, PT Serif, Fahkwang, Exo 2, Exo, Abel, Karla */
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/abel/v12/MwQ5bhbm2POE2V9BOA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/exo/v11/4UaZrEtFpBI4f1ZSIK9d4LjJ4lM3OwRmPg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/exo2/v9/7cH1v4okm5zmbvwkAx_sfcEuiD8jvvKsOdC6.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fahkwang';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/fahkwang/v4/Noax6Uj3zpmBOgbNpOqIuLk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMZhKg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/karla/v14/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqaE0lP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/ptsans/v12/jizaRExUiTo99u79D0KEwA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfedw.ttf) format('truetype');
+}
+/* Edgy Fonts - Tangerine, Poiret One, Courgette, Merienda, Cinzel, Gloria Hallelujah, Amatic SC */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/amaticsc/v15/TUZyzwprpvBS1izr_vOECuSa.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/cinzel/v10/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnfY3lCA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Courgette';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/courgette/v8/wEO_EBrAnc9BLjLQAUk1VvoP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Gloria Hallelujah';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/gloriahallelujah/v12/LYjYdHv3kUk9BMV96EIswT9DIbW-MIS11zY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Merienda';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/merienda/v9/gNMHW3x8Qoy5_mf8uWMFMI8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/poiretone/v9/UqyVK80NJXN4zfRgbdfbo55cUg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Tangerine';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/tangerine/v12/IurY6Y5j_oScZZow4VOxCZZJ.ttf) format('truetype');
+}
+/*Thick fonts - 'Libre Barcode 39 Text', cursive, 'PT Mono', monospace, 'Tillana', cursive;*/
+@font-face {
+  font-family: 'Libre Barcode 39 Text';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/librebarcode39text/v10/sJoa3KhViNKANw_E3LwoDXvs5Un0HQ1vT-0H0h5P.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/ptmono/v8/9oRONYoBnWILk-9AnC8zNg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Tillana';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/tillana/v6/VuJ0dNvf35P4qJ1OQFL-LI5GYQ.ttf) format('truetype');
+}
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
 html {
   font-size: 16px;
-  height: 100%;
 }
 body {
-  color: #b1a0d5;
+  color: #676f8c;
   font-size: 1.2rem;
-  padding: 12px;
+  padding: 0;
   margin: 0;
+  display: grid;
+  grid-template-columns: 20% 80%;
 }
 h1,
 h2,
@@ -14,8 +137,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: #a4b7b7;
+  font-family: 'Josefin Sans';
+  color: #c40003;
+  text-transform: uppercase;
 }
 ul,
 li {
@@ -23,10 +147,8 @@ li {
   padding: 0;
   list-style: none;
 }
-li {
-  cursor: pointer;
-}
 a {
   text-decoration: none;
-  color: #989191;
+  color: #d0cfce;
+  cursor: pointer;
 }
